@@ -12,8 +12,11 @@ main:
   #- title: "Portfolio"
   #  url: /portfolio/
         
-  - title: "Blog"
-    url: /year-archive/
+  # - title: "Blog"
+  #   url: /year-archive/
+  
+  - title: "GSoC"
+    url: /gsoc-blog/
     
   #- title: "CV"
   #  url: /cv/

@@ -1,0 +1,20 @@
+---
+layout: archive
+permalink: /gsoc-blog/
+title: "Google Summer of Code 2021"
+author_profile: true
+---
+
+{% include base_path %}
+{% include group-by-array collection=site.posts field="categories" %}
+
+I will document here my work for the Google Summer of Code 2021 program. If you have any question, or comment,
+do not hesitate to send me an email.
+
+{% for category in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

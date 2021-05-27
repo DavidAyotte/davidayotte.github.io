@@ -1,11 +1,13 @@
 ---
-title: 'A quick introduction to the theory of quasimodular forms'
+title: 'A quick introduction to the theory of (quasi)modular forms'
 date: 2021-05-26
 permalink: /posts/2021/05/quasimodform/
 tags:
   - gsoc
   - modform
   - math
+category:
+  - gsoc
 ---
 
 In this post, I shall explain what is a quasimodular forms, which are the main mathematical objects for this GSoC project.
@@ -73,7 +75,7 @@ $$
 \end{cases}
 $$
 
-Using this definition we it is possible to show that
+Using this definition, it is possible to show that
 
 $$
 G_2(z) = 2\zeta(2) - 8 \pi^2 \sum_{n=1}^{\infty} \sigma_1(n) q^n.
@@ -82,7 +84,35 @@ $$
 Moreover, we have that
 
 $$
-G_2|_2\gamma(z) = G_2(z) - \frac{2\pi i c}{cz+d}
+G_2|_2\gamma(z) = G_2(z) - 2\pi i\frac{c}{cz+d},\quad \forall \gamma = \bigl(\begin{smallmatrix} a & b\\ c & d \end{smallmatrix}\bigr)\in \mathrm{SL}_2(\mathbb{Z}).
 $$
 
-and so we observe that $$G_2$$ is not quite a modular form but almost, it is so close of being a modular form that we call it a *quasimodular form*.
+and so we observe that $$G_2$$ is *almost* a modular form. It is so close of being a modular form that we call it a *quasimodular form*.
+
+Let $$\mathrm{Hol}_0(\mathbb{H})$$ be the set of holomorphic function on $$\mathbb{H}$$ having a Fourier expansion of the form $$ \sum_{n\geq 0} a_n e^{2i\pi n} $$.
+
+## Definition.
+
+Let $$k$$ and $$p$$ be two positives integers. A *quasimodular form of weight $$k$$ and depth $$\leq p$$ for $$\mathrm{SL}_2(\mathbb{Z})$$* is a holomorphic function $$f\in \mathrm{Hol}_0(\mathbb{H})$$ such that for $$z\in \mathbb{H}$$ and $$\gamma = \bigl(\begin{smallmatrix} a & b\\ c & d \end{smallmatrix}\bigr)\in \mathrm{SL}_2(\mathbb{Z})$$ there exists $$f_0,\ldots, f_p \in \mathrm{Hol}_0(\mathbb{H})$$ such that
+
+$$
+(f \mid_k \gamma)(z) = \sum_{r = 0}^{p} f_r(z) \left( \frac{c}{cz+d} \right)^r.
+$$
+
+In other words, $$(f \mid_k \gamma)(z)$$ is a polynomial of degree at most $$p$$ in $$\tfrac{c}{cz+d}$$ with coefficient in $$\mathrm{Hol}_0(\mathbb{H})$$. $$\diamond$$
+
+At first, this general definition can be motivated by the use of the differential operator $$ D = \tfrac{1}{2\pi i}\tfrac{d}{d z}$$ and this will be the subject of the next post.
+
+## References
+
+Here are some references for the theory of classical modular forms:
+
+ * Diamond, Fred and Shurman, Jerry, *A first course in modular forms.* Graduate Texts in Mathematics, Vol. 228, Springer-Verlag, New York, 2005
+
+ * Serre, Jean-Pierre, *Cours d'arithmétique.* Deuxième édition revue et corrigée. Le Mathématicien, No 2. Presses Universitaires de France, Paris, 1977.
+
+A good exposition for the theory of quasimodular form is given in section 5.3 (page 58) of:
+
+ * Zagier, Don, *Elliptic modular forms and their applications.* The 1-2-3 of modular forms, 1–103,
+Universitext, Springer, Berlin, 2008.
+
