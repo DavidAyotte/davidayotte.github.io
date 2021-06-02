@@ -101,8 +101,6 @@ $$
 
 In other words, $$(f \mid_k \gamma)(z)$$ is a polynomial of degree at most $$p$$ in $$\tfrac{c}{cz+d}$$ with coefficient in $$\mathrm{Hol}_0(\mathbb{H})$$. $$\diamond$$
 
-At first, this general definition can be motivated by the use of the differential operator $$ D = \tfrac{1}{2\pi i}\tfrac{d}{d z}$$ and this will be the subject of the next post.
-
 ## References
 
 Here are some references for the theory of classical modular forms:
