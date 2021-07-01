@@ -249,7 +249,6 @@ Traceback (most recent call last)
 TypeError: unsupported operand parent(s) for +: 'Modular Forms space of dimension 1 for Modular Group
 SL(2,Z) of weight 4 over Rational Field' and 'Modular Forms space of dimension 1 for Modular Group
 SL(2,Z) of weight 6 over Rational Field'
-
 {% endhighlight %}
 
 Instead of an error here, SageMath would return a `GradedModularFormElement`. This feature is still under developpement.
