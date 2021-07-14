@@ -1,5 +1,5 @@
 ---
-title: 'How to Write a Modular Form In Terms of the Generators?'
+title: 'How to Write a Modular Form In Terms of a Set of Generators?'
 date: 2021-07-14
 permalink: /posts/2021/06/relation/
 tags:
