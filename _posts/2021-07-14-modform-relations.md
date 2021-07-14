@@ -39,7 +39,7 @@ To determine $$a$$ and $$b$$, we will need a tool called the *Sturm bound* of a 
 ## Theorem.
 Let $$f\in \mathcal{M}_k(\mathrm{SL}_2(\mathbb{Z}))$$ with $$q$$-expansion $$\sum_{n\geq 0} a_n q^n$$. Suppose that $$a_i = 0$$ for $$0 \leq i \leq \lfloor k/12 \rfloor$$. Then $$f = 0$$.
 
-This theorem is a generalization of the valence formula. Moreover, a more general version for congruences subgroups also exist (see for example this [page](http://www.lmfdb.org/knowledge/show/cmf.sturm_bound))
+This theorem is a corollary of the valence formula. Moreover, a more general version for congruences subgroups also exist (see for example this [page](http://www.lmfdb.org/knowledge/show/cmf.sturm_bound))
 
 Using the Sturm bound, we can now solve our initial problem by following these steps:
 
