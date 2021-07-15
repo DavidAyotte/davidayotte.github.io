@@ -1,5 +1,5 @@
 ---
-title: 'A quick introduction to the theory of (quasi)modular forms'
+title: 'A Quick Introduction to the Theory of (Quasi)modular Forms'
 date: 2021-05-26
 permalink: /posts/2021/05/quasimodform/
 tags:
@@ -12,7 +12,7 @@ category:
 
 In this post, I shall explain what is a quasimodular forms, which are the main mathematical objects for this GSoC project.
 
-Basic knowledge of classical modular forms will be assumed throughougt this text, but let's recall the definition. First we define an action of the group of matrices with coefficient in $$\mathbb{Z}$$, denoted $$\mathrm{SL}_2(\mathbb{Z})$$, on the upper half plane $$\mathbb{H} := \lbrace z \in \mathbb{C} : \mathrm{im}(z)>0 \rbrace$$ by
+Basic knowledge of classical modular forms will be assumed throughougt this text, but let's recall the definition. First we define an action of the group of $$2\times 2$$ matrices with coefficient in $$\mathbb{Z}$$ and determinant $$1$$, denoted $$\mathrm{SL}_2(\mathbb{Z})$$ (called the *modular group*), on the upper half plane $$\mathbb{H} := \lbrace z \in \mathbb{C} : \mathrm{im}(z)>0 \rbrace$$ by
 
 $$
 \begin{pmatrix}
@@ -113,4 +113,3 @@ A good exposition for the theory of quasimodular form is given in section 5.3 (p
 
  * Zagier, Don, *Elliptic modular forms and their applications.* The 1-2-3 of modular forms, 1–103,
 Universitext, Springer, Berlin, 2008.
-

@@ -12,7 +12,7 @@ category:
 
 In this post, I will explain an algorithmic way to write any modular form $$f \in \mathcal{M}_*(\Gamma)$$ as a polynomial in the generators of the graded ring $$\mathcal{M}_*(\Gamma)$$ ($$\Gamma = \Gamma_0(N), \Gamma_1(N)$$ or $$\mathrm{SL}_2(\mathbb{Z})$$).
 
-First it is important to mention that for any congruence subgroup $$\Gamma \leq \mathrm{SL}_2(\mathbb{Z})$$, the graded ring of modular forms $$\mathcal{M}_*(\Gamma)$$ is finitely generated (but not necessarily freely). This is not trivial and it was proven in the paper *Les schémas de modules de courbes elliptiques* [[DR73](https://www.springer.com/gp/book/9783540065586), Thm 3.4].
+First it is important to mention that for any congruence subgroup $$\Gamma \leq \mathrm{SL}_2(\mathbb{Z})$$, the graded ring of modular forms $$\mathcal{M}_*(\Gamma)$$ is finitely generated (but not necessarily freely). This is not trivial and it was proven in the paper *Les schémas de modules de courbes elliptiques* [[DR73](https://www.springer.com/gp/book/9783540065586), Thm 3.4]. In fact, they prove that it is finitely generated as a $$\mathbb{Z}$$-algebra.
 
 Let's start with an (easy) example. Consider the weight 12 normalized Eisenstein serie for $$\mathrm{SL}_2(\mathbb{Z})$$ denoted $$E_{12}$$ (by "normalized" I mean that the first Fourier coefficient is $$1$$). This modular form lives in the graded ring of modular forms for the full modular group:
 
@@ -27,7 +27,7 @@ $$
 E_{12} = P(E_4, E_6)
 $$
 
-Next, we claim that $$P$$ must be homogeneous of weight $$12$$ in $$E_4$$ and $$E_6$$. In other words, if $$X = x^4$$ and $$Y = y^6$$ then $$P(x^4, y^6)$$ must be of degree $$12$$ and respect the following relation: $$P((\lambda x)^4, (\lambda y)^6) = \lambda^{12}P(x^4, y^6)$$ for every $$\lambda\in \mathbb{C}$$. Since the only homogeneous monomials of weight $$12$$ are $$E_4^3$$ and $$E_6^2$$ the problem reduces to finding two complex numbers $$a$$ and $$b$$ such that
+Next, we claim that $$P$$ must be homogeneous of weight $$12$$ in $$E_4$$ and $$E_6$$. In other words, if $$X = x^4$$ and $$Y = y^6$$ then $$P(x^4, y^6)$$ must be of degree $$12$$ and respect the following relation: $$P((\lambda x)^4, (\lambda y)^6) = \lambda^{12}P(x^4, y^6)$$ for every $$\lambda\in \mathbb{C}$$. This is simply because $$E_{12}$$ is of weight $$12$$ and the product of two modular forms of weight $$k_1$$ and $$k_2$$ respectively is a modular form of weight $$k_1 + k_2$$. Since the only homogeneous monomials of weight $$12$$ are $$E_4^3$$ and $$E_6^2$$ the problem reduces to finding two complex numbers $$a$$ and $$b$$ such that
 
 $$
 \label{E12_pol}
@@ -37,7 +37,7 @@ $$
 To determine $$a$$ and $$b$$, we will need a tool called the *Sturm bound* of a modular forms space. This bound tell us that a modular form is determined only by a finite number of coefficients in its $$q$$-expansion. Here's the general statement:
 
 ## Theorem.
-Let $$f\in \mathcal{M}_k(\mathrm{SL}_2(\mathbb{Z}))$$ with $$q$$-expansion $$\sum_{n\geq 0} a_n q^n$$. Suppose that $$a_i = 0$$ for $$0 \leq i \leq \lfloor k/12 \rfloor$$. Then $$f = 0$$.
+Let $$f\in \mathcal{M}_k(\mathrm{SL}_2(\mathbb{Z}))$$ with $$q$$-expansion $$\sum_{n\geq 0} a_n q^n$$. Suppose that $$a_i = 0$$ for $$0 \leq i \leq \lfloor k/12 \rfloor$$. Then $$f = 0$$. The number $$\mathrm{SB}_k := \lfloor k/12 \rfloor$$ is called the *Sturm bound* of $$\mathcal{M}_k(\mathrm{SL}_2(\mathbb{Z}))$$
 
 This theorem is a corollary of the valence formula. Moreover, a more general version for congruences subgroups also exist (see for example this [page](http://www.lmfdb.org/knowledge/show/cmf.sturm_bound))
 
@@ -45,9 +45,9 @@ Using the Sturm bound, we can now solve our initial problem by following these s
 
 1. Compute the sturm bound of $$\mathcal{M}_{12}(\mathrm{SL}_2(\mathbb{Z}))$$:
 $$
-~~ B_{12} = \lfloor 12/12 \rfloor = 1
+~~ \mathrm{SB}_{12} = \lfloor 12/12 \rfloor = 1
 $$
-2. Compute the $$q$$-expansion of $$E_{12}$$, $$E_4^3$$ and $$E_6^2$$ up to precision $$q^{B_{12}}$$:
+2. Compute the $$q$$-expansion of $$E_{12}$$, $$E_4^3$$ and $$E_6^2$$ up to precision $$q^{\mathrm{SB}_{12}+1}$$:
 
    $$
    E_{12} =  1 + \frac{65520}{691}q + O(q^2);
@@ -60,7 +60,7 @@ $$
    $$
    E_6^2 = 1 - 1008q + O(q^2).
    $$
-3. Solve the resulting linear system given by $$ C_{E_{12}} = a C_{E_{4}^3} + b C_{E_6^2}$$ where $$C_{E_k^n}$$ is the vector formed by the coefficients of $$E_k^n$$ up to precision $$q^{B_{12}}$$:
+3. Solve the resulting linear system given by $$ C_{E_{12}} = a C_{E_{4}^3} + b C_{E_6^2}$$ where $$C_{E_k^n}$$ is the vector formed by the coefficients of $$E_k^n$$ up to precision $$q^{\mathrm{SB}_{12}+1}$$:
 
    $$
    \begin{pmatrix}
