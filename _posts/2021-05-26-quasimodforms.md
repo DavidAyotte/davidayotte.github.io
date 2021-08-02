@@ -8,6 +8,7 @@ tags:
   - math
 category:
   - gsoc
+author_profile: false
 ---
 
 In this post, I shall explain what is a quasimodular forms, which are the main mathematical objects for this GSoC project.

@@ -8,8 +8,8 @@ redirect_from:
   - /research.html
 ---
 
-Currently, my Ph. D. research is about computational aspects of Drinfeld modular forms.
+Currently, my Ph. D. research is about computational aspects of Drinfeld modular forms. A *Drinfeld modular forms* is a rigid analytic function defined over the Drinfeld upper half plane $$f:\Omega \rightarrow C$$ such that
 
-**What is a Drinfeld modular forms?**
-
-A *Drinfeld modular form* is a function defined over the Drinfeld upper half plane
+$$
+f\left( \frac{az+b}{cz+d} \right) = (\mathrm{det}\gamma)^{-m}(cz+d)^k f(z)
+$$

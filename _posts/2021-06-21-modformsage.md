@@ -8,6 +8,7 @@ tags:
   - math
 category:
   - gsoc
+author_profile: false
 ---
 
 The goal of this post is to go over some of the new features that are currently in developement for the graded ring of modular forms in SageMath.
@@ -47,7 +48,7 @@ $$
 F := E_4 + E_6
 $$
 
-where $$E_4$$ and $$E_6$$ are the weight $$4$$ and $$6$$ normalized Eisenstein series. 
+where $$E_4$$ and $$E_6$$ are the weight $$4$$ and $$6$$ normalized Eisenstein series.
 
 Given a graded form $$F = f_0 + f_1 + f_2 + \ldots + f_r$$, each modular forms $$f_k$$ will be called the *weight $$k$$ homogeneous component of $$F$$*.
 
@@ -55,7 +56,7 @@ Given a graded form $$F = f_0 + f_1 + f_2 + \ldots + f_r$$, each modular forms $
 
 In SageMath, there is a notion of *elements* and *parents*. In short, an *element* is a member contained in a structure called *parent*. An example of a parent in SageMath is the ring of integer $$\mathbb{Z}$$ with elements the integers. To implement a new parent structure in SageMath, one need to define a class that inherit of the subclass [Parent](https://doc.sagemath.org/html/en/reference/structure/sage/structure/parent.html). This was not the case for the initial implementation of the class ModularFormRing.
 
-Moreover, when implementing a new structure, one needs to also define a new class representing the elements of our parent class. This class of elements must inherit of the subclass [Element](https://doc.sagemath.org/html/en/reference/structure/sage/structure/element.html). The base methods of this subclass provides useful features. For example, when implemented correctly, it is possible to define the classical operations (addition, multiplication,...) between our elements. 
+Moreover, when implementing a new structure, one needs to also define a new class representing the elements of our parent class. This class of elements must inherit of the subclass [Element](https://doc.sagemath.org/html/en/reference/structure/sage/structure/element.html). The base methods of this subclass provides useful features. For example, when implemented correctly, it is possible to define the classical operations (addition, multiplication,...) between our elements.
 
 Implementing this Parent/Element framework is exactly what we want to do here with the class `ModularFormsRing`.
 
@@ -89,7 +90,7 @@ Below is a summary of the class `ModularFormRing` with its `_element_constructor
 
 {% highlight python %}
 class ModularFormsRing(Parent):
-    
+
     Element = GradedModularFormElement
 
     def __init__(self, group, base_ring=QQ):
@@ -151,7 +152,7 @@ class GradedModularFormElement(Element):
 
             - ``parents`` - an object of the class ModularFormsRing
             - ``mf_dict`` - a dictionary ``{k_1:f_1, k_2:f_2, ..., k_n:f_n}`` where `f_i` is a modular form of weight `k_i`
-        
+
         OUTPUT:
 
         A GradedModularFormElement corresponding to `f_1 + f_2 + ... f_n`
@@ -160,7 +161,7 @@ class GradedModularFormElement(Element):
         Element.__init__(self, parent)
 {% endhighlight %}
 
-We have chosen here to represent a graded modular form as a dictionnary because this makes it easier to access the weight-$$k$$ component of the graded form (keys = weights, values = modular forms). 
+We have chosen here to represent a graded modular form as a dictionnary because this makes it easier to access the weight-$$k$$ component of the graded form (keys = weights, values = modular forms).
 
 Now that the Parent/Element framework is implemented, it is also desirable to define operation between two `GradedModularFormElement`. This is done by defining the three special methods: `_add_`, `_neg_` and `_mul_`.
 

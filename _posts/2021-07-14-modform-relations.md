@@ -8,6 +8,7 @@ tags:
   - math
 category:
   - gsoc
+author_profile: false
 ---
 
 In this post, I will explain an algorithmic way to write any modular form $$f \in \mathcal{M}_*(\Gamma)$$ as a polynomial in the generators of the graded ring $$\mathcal{M}_*(\Gamma)$$ ($$\Gamma = \Gamma_0(N), \Gamma_1(N)$$ or $$\mathrm{SL}_2(\mathbb{Z})$$).
