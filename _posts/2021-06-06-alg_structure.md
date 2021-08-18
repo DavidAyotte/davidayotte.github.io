@@ -61,5 +61,3 @@ Hence, to encode a quasiform in SageMath it *should* be enough to simply specify
 where each f_i correspond to a coefficient of (\ref{eq:pol_G2}). A useful feature of SageMath is the fact that the classical modular forms are already implemented. Thus, during the implementation of the quasimodular forms, it would be all to our advantage to *reuse* what has already been implemented.
 
 In addition to the implementation of classical modular forms into SageMath, there is also the software PARI/GP that can perform computation with modular forms. [PARI/GP](https://pari.math.u-bordeaux.fr/) is also a free mathematical software, but it is more centered around number theory. What is more important to us is the fact that PARI/GP is included in SageMath! This means that when using SageMath, it is possible to explicitly call PARI/GP in order to perform a certain computation. Therefore, we will have access to both of the implementations which will be very useful.
-
-In a future post, I will explain some features that are specific to SageMath and the ones that are specific to PARI/GP.

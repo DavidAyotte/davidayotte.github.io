@@ -8,8 +8,7 @@ author_profile: true
 {% include base_path %}
 {% include group-by-array collection=site.posts field="categories" %}
 
-I will document here my work for the Google Summer of Code 2021 program. If you have any question, or comment,
-do not hesitate to send me an email.
+This blog is an overview of my work and ideas for the GSoC 2021 program.
 
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
