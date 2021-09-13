@@ -31,7 +31,7 @@ I will list here a brief overview of the work I did and explain the new features
 
 * Ticket [#32168](https://trac.sagemath.org/ticket/32168): Fixed conversion between modular forms spaces.
 
-    It is well known that a modular form $$f$$ of weight $$k$$, level $$N$$ and nebentypus $$\chi$$ is modular over $$\Gamma_1(N)$$. However, it was not always possible to converse a modular form from a space to a bigger space:
+    It is well known that a modular form $$f$$ of weight $$k$$, level $$N$$ and nebentypus $$\chi$$ is modular over $$\Gamma_1(N)$$. However, it was not always possible to convert a modular form between different spaces:
 
     {% highlight text %}
     sage: chi = DirichletGroup(13).0
@@ -41,7 +41,7 @@ I will list here a brief overview of the work I did and explain the new features
     Modular Forms space of dimension 34 for Congruence Subgroup Gamma1(13) of weight 5 over Cyclotomic Field of order 12 and degree 4
     sage: f = Mchi.0; f
     q + (-3*zeta12^3 - zeta12^2 + zeta12 + 3)*q^5 + O(q^6)
-    sage: M(f) # bug
+    sage: M(f) # convert bug
     Traceback (most recent call last):
     ...
     TypeError: entries must be a list of length 34
