@@ -16,13 +16,13 @@ main:
   #   url: /year-archive/
 
   - title: "My Research"
-    url: /research/
+    url: /my-research/
 
   - title: "GSoC Blog"
     url: /gsoc-blog/
 
   - title: "About Myself"
-    url: /aboutme/
+    url: /about-myself/
 
 
   #- title: "CV"
