@@ -15,12 +15,15 @@ main:
   # - title: "Blog"
   #   url: /year-archive/
 
-  - title: "GSoC"
+  - title: "My Research"
+    url: /research/
+
+  - title: "GSoC Blog"
     url: /gsoc-blog/
 
+  - title: "About Myself"
+    url: /aboutme/
 
-  # - title: "My Research"
-  #   url: /research/
 
   #- title: "CV"
   #  url: /cv/
