@@ -19,6 +19,7 @@ During the summer 2021, I participated in the program [Google Summer of Code](ht
 
 Since then, I continued to contribute to SageMath on a voluntary basis. My contributions includes new enhancements, bug fixes and code reviews. A list of my contributions can be found [here](https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&author=~David+Ayotte&or&reviewer=~David+Ayotte&max=150&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
 
-## Publication
+## Publications
 
+* Ayotte, D., *Relations entre le nombre de classes et les formes modulaires*, Master's thesis, 2019, [http://hdl.handle.net/20.500.11794/37368](http://hdl.handle.net/20.500.11794/37368)
 * Ayotte, D., Lei, A. & Rondy-Turcotte, JC. *On the parity of supersingular Weil polynomials*. Arch. Math. 106, 345–353 (2016). [https://doi.org/10.1007/s00013-016-0888-0](https://doi.org/10.1007/s00013-016-0888-0)
