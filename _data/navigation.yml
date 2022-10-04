@@ -18,9 +18,6 @@ main:
   - title: "My Research"
     url: /my-research/
 
-  # - title: "Drinfeld Modular Forms"
-  #   url: /drinfeld_modular_forms/
-
   - title: "GSoC Blog"
     url: /gsoc-blog/
 
@@ -29,6 +26,9 @@ main:
 
   - title: "CV"
     url: /cv/
+
+  - title: "Drinfeld Modular Forms"
+    url: /drinfeld_modular_forms/
 
   #- title: "Guide"
   #  url: /markdown/
