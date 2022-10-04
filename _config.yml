@@ -123,6 +123,7 @@ include:
   - _pages
   - files
   - _static
+  - drinfeld_modular_forms
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
