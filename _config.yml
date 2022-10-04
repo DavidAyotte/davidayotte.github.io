@@ -85,8 +85,8 @@ author:
   bio              : "Ph. D. Student in Mathematics"
   location         : "Montreal, Canada"
   employer         :
-  pubmed           : 
-  googlescholar    : 
+  pubmed           :
+  googlescholar    :
   email            : david.ayotte@mail.concordia.ca
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/david-ayotte-b93418186/
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -122,6 +122,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _static
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
