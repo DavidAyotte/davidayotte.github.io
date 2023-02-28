@@ -23,7 +23,7 @@ In relation with my PhD, I'm currently developing a SageMath package named `drin
 
 Over the course of summer 2021, I participated in the program [Google Summer of Code](https://summerofcode.withgoogle.com/). The goal of my project was to implement the graded ring of quasimodular forms into SageMath. I blogged about my experience here on my website (see the section [GSoC](/gsoc-blog/)). I was mentored by [Vincent Delecroix](https://www.labri.fr/perso/vdelecro/).
 
-Since then, I continue to contribute to SageMath on a voluntary basis. My contributions includes new enhancements, bug fixes and code reviews. A list of my contributions can be found [here](https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&author=~David+Ayotte&or&reviewer=~David+Ayotte&max=150&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
+Since then, I continue to contribute to SageMath on a voluntary basis. My contributions includes new enhancements, bug fixes and code reviews. Here's a list of my contributions: [issues](https://github.com/sagemath/sage/issues?q=is%3Aissue+author%3ADavidAyotte+is%3Aclosed), [PR](https://github.com/sagemath/sage/pulls/DavidAyotte) and [commits](https://github.com/sagemath/sage/commits?author=DavidAyotte).
 
 ## Publications
 
