@@ -27,5 +27,6 @@ Since then, I continue to contribute to SageMath on a voluntary basis. My contri
 
 ## Publications
 
-* Ayotte, D., *Relations entre le nombre de classes et les formes modulaires*, Master's thesis, 2019, [http://hdl.handle.net/20.500.11794/37368](http://hdl.handle.net/20.500.11794/37368)
-* Ayotte, D., Lei, A. & Rondy-Turcotte, JC. *On the parity of supersingular Weil polynomials*. Arch. Math. 106, 345–353 (2016). [https://doi.org/10.1007/s00013-016-0888-0](https://doi.org/10.1007/s00013-016-0888-0)
+* Ayotte, D., Caruso, X., Leudière, A., & Musleh, J. (2023). Drinfeld modules in SageMath. arXiv preprint [arXiv:2305.00422](https://arxiv.org/abs/2305.00422).
+* Ayotte, D. (2019), Relations entre le nombre de classes et les formes modulaires, Mémoire de maitrise, [hdl.handle.net/20.500.11794/37368](http://hdl.handle.net/20.500.11794/37368)
+* Ayotte, D., Lei, A. & Rondy-Turcotte, JC. (2016). *On the parity of supersingular Weil polynomials*. Arch. Math. 106, 345–353. [doi:10.1007/s00013-016-0888-0](https://doi.org/10.1007/s00013-016-0888-0)

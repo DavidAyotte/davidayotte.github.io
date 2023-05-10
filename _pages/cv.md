@@ -4,4 +4,5 @@ title: "Curriculum Vitae"
 excerpt: "Curriculum Vitae"
 author_profile: true
 ---
-PDF version of my resume: [CV_en.pdf](/files/CV_en.pdf)
+
+My curriculum vitae (in french): [CV_fr.pdf](/files/CV_fr.pdf)
