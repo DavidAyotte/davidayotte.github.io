@@ -10,12 +10,10 @@ redirect_from:
 
 Hello!
 
-I'm a PhD Student in Mathematics at Concordia University in Montreal. My area of research is Number Theory, more precisely I study modular forms which are mathematical objects with profond connection with numbers. For example, modular forms
-played a very important role in the proof of [Fermat's last theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem), a theorem stated by Pierre de Fermat around 1637 but only completely proved in 1994.
+I'm a PhD in Mathematics and I obtained my degree in 2023 at Concordia University (Montréal, Canada) under the supervision of [Giovanni Rosso](https://sites.google.com/site/gvnros/). My thesis was about number theory, more precisely I studied the arithmetic and computational aspects of Drinfeld modular forms.
 
-For my PhD thesis, I am interested in the study of the computational aspects of Drinfeld
-modular forms and their values at CM points. This type of modular forms can be viewed as an analogues of the classical modular forms (the theory over $$\mathbb{C}$$) but for function fields of the forms $$\mathbb{F}_q(T)$$ where $$q$$ is a power of a prime number.
+Previously, I did my BSc and MSc at Université Laval (Québec, Canada) under the supervision of [Antonio Lei](http://antoniolei.com/).
 
-My advisor is [Giovanni Rosso](https://sites.google.com/site/gvnros/).
+Now, I work in the finance industry as a data scientist.
 
-I did my master degree at Université Laval and my advisor was [Antonio Lei](http://antoniolei.com/)
+I'm also an open source software developer for the project [SageMath](https://www.sagemath.org/). Most of my contributions and personnal programming projects can be found [here](https://github.com/DavidAyotte).
