@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "David Ayotte"
+  name             : "David Ayotte, PhD"
   avatar           : "photo.jpg"
-  bio              : "PhD candidate in Mathematics"
+  bio              : "Data scientist"
   location         : "Montreal, Canada"
   employer         :
   pubmed           :
