@@ -6,7 +6,7 @@ tags:
   - gsoc
 category:
   - gsoc
-author_profile: false
+author_profile: true
 ---
 
 In this post, I will give an overview of my work for the SageMath open-source mathematical software. If you are new to this blog, I suggest that you start reading from the [first post](/posts/2021/05/gsoc2021/).

@@ -8,7 +8,7 @@ tags:
   - math
 category:
   - gsoc
-author_profile: false
+author_profile: true
 ---
 
 The goal of this post is to go over some of the new features that are currently in developement for the graded ring of modular forms in SageMath.

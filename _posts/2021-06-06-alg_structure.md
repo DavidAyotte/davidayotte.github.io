@@ -8,7 +8,7 @@ tags:
   - math
 category:
   - gsoc
-author_profile: false
+author_profile: true
 ---
 
 This post is a direct follow up of the [last post](/posts/2021/05/quasimodform/). In particular, I want to explain what is the algebraic structure of the space of quasimodular forms and how it will be used in our SageMath implementation.
